@@ -1,8 +1,8 @@
 import { ZegoExpressEngine } from 'zego-express-engine-webrtc';
 import { service } from '../utils/request';
 import con from '../utils/console';
-const appID = 1739272706;
-const server = 'wss://webliveroom-test.zego.im/ws';
+const appID = 2895929266;
+const server = 'wss://webliveroom2895929266-api.zegocloud.com/ws';
 const userID = 'sampleUser' + new Date().getTime();
 
 export const zg = new ZegoExpressEngine(appID, server);
